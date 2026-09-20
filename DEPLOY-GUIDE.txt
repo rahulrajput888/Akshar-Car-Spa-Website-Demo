@@ -1,0 +1,46 @@
+AKSHAR CAR SPA — WEBSITE DEPLOY GUIDE (Hindi/English)
+=====================================================
+Ye folder hi poori website hai. Koi software install nahi chahiye.
+
+OPTION 1 — NETLIFY (Free, 5 minute) — RECOMMENDED
+-------------------------------------------------
+1. netlify.com par free account banao (Google se login).
+2. "Sites" page par is ZIP ko unzip karke poora FOLDER drag-and-drop karo.
+   (Yaad rahe: index.html folder ke andar top level par hona chahiye.)
+3. Site live! Free link milega jaise: akshar-car-spa.netlify.app
+4. Client ka domain (aksharcarspa.com) hai to: Site settings > Domain management
+   me domain add karo — Netlify DNS steps de dega.
+
+OPTION 2 — HOSTINGER / cPANEL SHARED HOSTING
+---------------------------------------------
+1. cPanel > File Manager > public_html kholo.
+2. Is folder ki SARI files + folders (index.html, css, js, images, manifest.json)
+   public_html me upload karo (ZIP upload karke Extract karna sabse easy).
+3. Domain already connect hoga — site turant live.
+
+OPTION 3 — VERCEL (Free, Netlify jaisa)
+----------------------------------------
+1. vercel.com par login > Add New > Project > is folder ko drag-drop karo.
+2. Deploy dabao — live link mil jayega.
+
+CLIENT DETAILS BADALNA HO TO (phone/WhatsApp/address)
+-------------------------------------------------------
+Har HTML file me ye number use hua hai: 918511510254 (WhatsApp/call)
+Aur display number: 85115 10254 / 77788 57187
+- VS Code me folder kholo > Ctrl+Shift+F (Find in Files) > number search >
+  Replace All se naya number dal do. Bas!
+
+FORMS KAISE KAAM KARTE HAIN
+----------------------------
+Backend nahi hai — form bharne par visitor ka WhatsApp khulta hai aur
+booking detail client ke number (918511510254) par bhejne ko ready milti hai.
+Isliye alag se form setup ki zaroorat NAHI hai.
+
+FILES:
+  index.html     Home        |  services.html  Services
+  ppf.html       PPF page    |  coatings.html  Ceramic/Graphene
+  gallery.html   Gallery     |  about.html     About
+  contact.html   Contact     |  booking.html   Booking
+  css/  js/  images/  manifest.json
+=====================================================
+Made as demo for Akshar Car Spa, Vadodara.
